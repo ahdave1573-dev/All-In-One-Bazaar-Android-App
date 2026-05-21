@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ═══════════════════════════════════════════════ -->
+    <!--  ADMIN THEME COLORS                             -->
+    <!-- ═══════════════════════════════════════════════ -->
+    <color name="primary_purple">#7C3AED</color>
+    <color name="primary_dark">#6D28D9</color>
+    <color name="primary_light">#A78BFA</color>
+    <color name="accent_purple">#8B5CF6</color>
+    <color name="background_light">#F8F7FC</color>
+    <color name="white">#FFFFFF</color>
+    <!--<color name="surface_white">#FFFFFF</color>
+
+
+    <color name="text_primary">#2E1145</color>
+    <color name="text_secondary">#A890B5</color>-->
+    <color name="success_green">#4CAF50</color>
+    <color name="error_red">#EF4444</color>
+    <color name="warning_orange">#F59E0B</color>
+
+    <color name="plum_dark">#6A0572</color>
+    <color name="rose_accent">#FF2E63</color>
+    <color name="plum_light">#EEDDF5</color>
+    <color name="app_background">#F4F5F9</color>
+    <color name="white_card">#FFFFFF</color>
+    <color name="purple_500">#6200EE</color>
+
+    <!-- ═══════════════════════════════════════════════ -->
+    <!--  OCEAN CALM THEME - COMPLETE PALETTE            -->
+    <!-- ═══════════════════════════════════════════════ -->
+
+    <!-- 1. Backgrounds & Surfaces -->
+    <color name="ocean_background">#E8F4FD</color>
+    <color name="ocean_surface">#A8D5F0</color>
+    <color name="ocean_white">#FFFFFF</color>
+    <color name="ocean_card">#FFFFFF</color>
+    <color name="ocean_dialog">#FFFFFF</color>
+
+    <!-- 🔥 આ કલર નવો એડ કર્યો છે (Onboarding Illustration માટે) -->
+    <color name="ocean_card_illustration">#E8F4FD</color>
+
+    <!-- 2. Primary Brands & Accents -->
+    <color name="ocean_primary">#1A56C4</color>
+    <color name="ocean_dark">#0C3A8A</color>
+    <color name="ocean_primary_dark">#0C3A8A</color>
+    <color name="ocean_secondary">#4A7FC1</color>
+    <color name="ocean_cta">#F5A623</color>
+    <color name="ocean_cta_text">#0C3A8A</color>
+
+    <!-- 3. Tints & Shades -->
+    <!-- <color name="ocean_lightest">#F0F9FF</color>-->
+    <color name="ocean_light">#D1E9FA</color>
+    <color name="ocean_medium">#79B1E1</color>
+
+    <!-- 4. Text & Hints (Fixing the current error) -->
+    <color name="ocean_text_primary">#0C3A8A</color>
+    <color name="ocean_text_secondary">#4A7FC1</color>
+    <color name="ocean_hint">#8CB5D9</color>
+    <color name="ocean_text_hint">#8CB5D9</color>
+    <color name="ocean_text_inverse">#FFFFFF</color>
+
+    <!-- 5. Dividers, Outlines & Borders -->
+    <color name="ocean_divider">#D1E9FA</color>
+    <color name="ocean_border">#D1E9FA</color>
+    <color name="ocean_outline">#A8D5F0</color>
+
+    <!-- 6. States (Disabled, Pressed) -->
+    <color name="ocean_disabled">#D1E9FA</color>
+    <color name="ocean_disabled_text">#A8D5F0</color>
+    <color name="ocean_transparent">#00000000</color>
+
+    <!-- 7. Badges, Stars & Status -->
+    <color name="ocean_badge_amber_bg">#FEF3E2</color>
+    <color name="ocean_badge_amber_text">#854F0B</color>
+    <color name="ocean_badge_blue_bg">#E8F4FD</color>
+    <color name="ocean_badge_blue_text">#185FA5</color>
+    <color name="ocean_star">#F5A623</color>
+    <color name="ocean_star_inactive">#A8D5F0</color>
+
+    <color name="ocean_success">#10B981</color>
+    <color name="ocean_error">#EF4444</color>
+
+    <!-- ── Semantic (keep for Android system use) ────────────────────── -->
+    <color name="colorPrimary">@color/ocean_primary</color>
+    <color name="colorPrimaryDark">@color/ocean_dark</color>
+    <color name="colorAccent">@color/ocean_cta</color>
+
+    <!-- Legacy aliases -->
+    <color name="surface_white">@color/ocean_white</color>
+    <color name="text_primary">@color/ocean_dark</color>
+    <color name="text_secondary">@color/ocean_secondary</color>
+    <color name="ocean_lightest">@color/ocean_background</color>
+
+</resources>
