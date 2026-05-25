@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    bg_btn_next_ocean.xml
+    Place in: res/drawable/
+    Normal state = ocean_primary blue (#1A56C4)
+    This is the default background for the Next button on pages 1 & 2.
+    For page 3 (last), swap via Java: btnNext.setBackgroundResource(R.drawable.bg_btn_next_cta)
+-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/ocean_primary"/>
+    <corners android:radius="14dp"/>
+</shape>
