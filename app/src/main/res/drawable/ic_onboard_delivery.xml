@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    ic_onboard_delivery.xml
+    Place in: res/drawable/
+    Size: 110x110dp
+    Theme: Ocean Calm — delivery truck with speed lines and amber lightning badge
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="110dp"
+    android:height="110dp"
+    android:viewportWidth="110"
+    android:viewportHeight="110">
+
+    <!-- Road / ground line -->
+    <path
+        android:pathData="M8,80 L102,80"
+        android:strokeColor="#A8D5F0"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"/>
+
+    <!-- Truck cargo box shadow -->
+    <path
+        android:pathData="M14,44 L60,44 L60,76 L14,76 Z"
+        android:fillColor="#A8D5F0"
+        android:fillAlpha="0.35"/>
+
+    <!-- Truck cargo box main -->
+    <path
+        android:pathData="M12,40 L62,40 Q66,40 66,44 L66,76 L12,76 Q8,76 8,72 L8,44 Q8,40 12,40 Z"
+        android:fillColor="#1A56C4"/>
+
+    <!-- Cargo box window / logo area -->
+    <path
+        android:pathData="M16,48 L58,48 L58,64 L16,64 Z"
+        android:fillColor="#E8F4FD"
+        android:fillAlpha="0.15"/>
+
+    <!-- Cargo box horizontal stripe -->
+    <path
+        android:pathData="M8,66 L66,66 L66,72 L8,72 Z"
+        android:fillColor="#0C3A8A"
+        android:fillAlpha="0.3"/>
+
+    <!-- Truck cab -->
+    <path
+        android:pathData="M66,52 L66,76 L98,76 L98,60 Q98,52 90,46 L76,40 Q66,40 66,52 Z"
+        android:fillColor="#0C3A8A"/>
+
+    <!-- Cab windshield -->
+    <path
+        android:pathData="M70,52 L70,62 L94,62 L94,60 Q94,54 88,50 L76,46 Q70,46 70,52 Z"
+        android:fillColor="#A8D5F0"
+        android:fillAlpha="0.6"/>
+
+    <!-- Cab door line -->
+    <path
+        android:pathData="M78,62 L78,76"
+        android:strokeColor="#E8F4FD"
+        android:strokeWidth="1.5"
+        android:strokeAlpha="0.4"/>
+
+    <!-- Wheel left (cargo) converted to path -->
+    <path
+        android:fillColor="#0C3A8A"
+        android:pathData="M26,68 a10,10 0 1,0 0,20 a10,10 0 1,0 0,-20"/>
+    <path
+        android:fillColor="#E8F4FD"
+        android:pathData="M26,72 a6,6 0 1,0 0,12 a6,6 0 1,0 0,-12"/>
+    <path
+        android:fillColor="#1A56C4"
+        android:pathData="M26,75 a3,3 0 1,0 0,6 a3,3 0 1,0 0,-6"/>
+
+    <!-- Wheel right (cab) converted to path -->
+    <path
+        android:fillColor="#0C3A8A"
+        android:pathData="M84,68 a10,10 0 1,0 0,20 a10,10 0 1,0 0,-20"/>
+    <path
+        android:fillColor="#E8F4FD"
+        android:pathData="M84,72 a6,6 0 1,0 0,12 a6,6 0 1,0 0,-12"/>
+    <path
+        android:fillColor="#1A56C4"
+        android:pathData="M84,75 a3,3 0 1,0 0,6 a3,3 0 1,0 0,-6"/>
+
+    <!-- Speed lines (amber) -->
+    <path
+        android:pathData="M2,50 L16,50"
+        android:strokeColor="#F5A623"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"/>
+    <path
+        android:pathData="M4,58 L14,58"
+        android:strokeColor="#F5A623"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"/>
+    <path
+        android:pathData="M2,66 L12,66"
+        android:strokeColor="#F5A623"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"/>
+
+    <!-- Lightning badge circle converted to path -->
+    <path
+        android:fillColor="#F5A623"
+        android:pathData="M90,14 a14,14 0 1,0 0,28 a14,14 0 1,0 0,-28"/>
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#E8F4FD"
+        android:strokeWidth="2"
+        android:pathData="M90,14 a14,14 0 1,0 0,28 a14,14 0 1,0 0,-28"/>
+
+    <!-- Lightning bolt inside badge -->
+    <path
+        android:pathData="M93,18 L87,28 L91,28 L87,38 L97,26 L92,26 Z"
+        android:fillColor="#633806"/>
+
+</vector>
