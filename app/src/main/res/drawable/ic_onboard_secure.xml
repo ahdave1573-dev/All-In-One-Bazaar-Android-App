@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    ic_onboard_secure.xml
+    Place in: res/drawable/
+    Size: 110x110dp
+    Theme: Ocean Calm — layered shield with padlock and amber checkmark badge
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="110dp"
+    android:height="110dp"
+    android:viewportWidth="110"
+    android:viewportHeight="110">
+
+    <!-- Shield outer glow layer -->
+    <path
+        android:pathData="M55,10 L92,26 L92,52 Q92,78 55,96 Q18,78 18,52 L18,26 Z"
+        android:fillColor="#A8D5F0"
+        android:fillAlpha="0.3"/>
+
+    <!-- Shield middle layer -->
+    <path
+        android:pathData="M55,15 L88,30 L88,52 Q88,74 55,90 Q22,74 22,52 L22,30 Z"
+        android:fillColor="#1A56C4"
+        android:fillAlpha="0.5"/>
+
+    <!-- Shield main body -->
+    <path
+        android:pathData="M55,20 L84,34 L84,52 Q84,70 55,84 Q26,70 26,52 L26,34 Z"
+        android:fillColor="#1A56C4"/>
+
+    <!-- Shield inner highlight arc (top) -->
+    <path
+        android:pathData="M55,26 L78,38 L78,48"
+        android:strokeColor="#E8F4FD"
+        android:strokeWidth="2"
+        android:strokeAlpha="0.2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+
+    <!-- Lock body -->
+    <path
+        android:pathData="M42,56 L68,56 Q72,56 72,60 L72,74 Q72,78 68,78 L42,78 Q38,78 38,74 L38,60 Q38,56 42,56 Z"
+        android:fillColor="#E8F4FD"/>
+
+    <!-- Lock shackle -->
+    <path
+        android:pathData="M45,56 Q45,42 55,42 Q65,42 65,56"
+        android:strokeColor="#E8F4FD"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+
+    <!-- Lock shackle inner (cutout effect) -->
+    <path
+        android:pathData="M47,56 Q47,45 55,45 Q63,45 63,56"
+        android:strokeColor="#1A56C4"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+
+    <!-- Keyhole circle (Converted to path) -->
+    <path
+        android:fillColor="#1A56C4"
+        android:pathData="M55,60 a5,5 0 1,0 0,10 a5,5 0 1,0 0,-10"/>
+
+    <!-- Keyhole slot -->
+    <path
+        android:pathData="M53,68 L57,68 L57,74 L53,74 Z"
+        android:fillColor="#1A56C4"/>
+
+    <!-- Checkmark badge circle (Converted to path) -->
+    <path
+        android:fillColor="#F5A623"
+        android:pathData="M80,12 a14,14 0 1,0 0,28 a14,14 0 1,0 0,-28"/>
+
+    <!-- Checkmark badge circle border (Converted to path) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#E8F4FD"
+        android:strokeWidth="2"
+        android:pathData="M80,12 a14,14 0 1,0 0,28 a14,14 0 1,0 0,-28"/>
+
+    <!-- Checkmark tick -->
+    <path
+        android:pathData="M73,26 L78,31 L88,20"
+        android:strokeColor="#633806"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"/>
+
+    <!-- SSL label tag -->
+    <path
+        android:pathData="M28,32 L46,32 Q50,32 50,36 L50,42 Q50,46 46,46 L28,46 Q24,46 24,42 L24,36 Q24,32 28,32 Z"
+        android:fillColor="#E8F4FD"
+        android:fillAlpha="0.9"/>
+
+    <!-- SSL text placeholder dots (Converted to paths) -->
+    <path android:fillColor="#1A56C4" android:pathData="M30,37 a2,2 0 1,0 0,4 a2,2 0 1,0 0,-4"/>
+    <path android:fillColor="#1A56C4" android:pathData="M37,37 a2,2 0 1,0 0,4 a2,2 0 1,0 0,-4"/>
+    <path android:fillColor="#1A56C4" android:pathData="M44,37 a2,2 0 1,0 0,4 a2,2 0 1,0 0,-4"/>
+
+</vector>
