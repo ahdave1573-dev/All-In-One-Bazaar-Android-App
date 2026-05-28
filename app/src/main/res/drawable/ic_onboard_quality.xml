@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    ic_onboard_quality.xml
+    Place in: res/drawable/
+    Size: 110x110dp (fits inside the 220dp illustration card)
+    Theme: Ocean Calm — shopping bag with star badge
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="110dp"
+    android:height="110dp"
+    android:viewportWidth="110"
+    android:viewportHeight="110">
+
+    <!-- Bag body shadow layer -->
+    <path
+        android:pathData="M22,46 L22,84 Q22,90 28,90 L82,90 Q88,90 88,84 L88,46 Q88,40 82,40 L28,40 Q22,40 22,46 Z"
+        android:fillColor="#A8D5F0"
+        android:fillAlpha="0.4"/>
+
+    <!-- Bag body main -->
+    <path
+        android:pathData="M18,42 L18,82 Q18,88 24,88 L86,88 Q92,88 92,82 L92,42 Q92,36 86,36 L24,36 Q18,36 18,42 Z"
+        android:fillColor="#1A56C4"/>
+
+    <!-- Bag handle left -->
+    <path
+        android:pathData="M36,36 Q36,18 55,18 Q74,18 74,36"
+        android:strokeColor="#0C3A8A"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+
+    <!-- Bag top stripe accent (Converted from rect to path) -->
+    <path
+        android:pathData="M18,36 L92,36 L92,50 L18,50 Z"
+        android:fillColor="#0C3A8A"
+        android:fillAlpha="0.2"/>
+
+    <!-- Bag pocket rectangle -->
+    <path
+        android:pathData="M34,56 L76,56 Q80,56 80,60 L80,76 Q80,80 76,80 L34,80 Q30,80 30,76 L30,60 Q30,56 34,56 Z"
+        android:fillColor="#E8F4FD"
+        android:fillAlpha="0.2"/>
+
+    <!-- Pocket divider line (Converted from line to path) -->
+    <path
+        android:pathData="M55,56 L55,80"
+        android:strokeColor="#E8F4FD"
+        android:strokeWidth="1.5"
+        android:strokeAlpha="0.3"/>
+
+    <!-- Star badge circle background (Converted to path) -->
+    <path
+        android:fillColor="#F5A623"
+        android:pathData="M82,16 a14,14 0 1,0 0,28 a14,14 0 1,0 0,-28"/>
+
+    <!-- Star badge circle border (Converted to path) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#E8F4FD"
+        android:strokeWidth="2"
+        android:pathData="M82,16 a14,14 0 1,0 0,28 a14,14 0 1,0 0,-28"/>
+
+    <!-- Star icon inside badge (5-point star path) -->
+    <path
+        android:pathData="M82,22 L84.4,27.8 L90.6,28.2 L86,32.4 L87.6,38.4 L82,35.2 L76.4,38.4 L78,32.4 L73.4,28.2 L79.6,27.8 Z"
+        android:fillColor="#633806"/>
+
+    <!-- Shine dots on bag (Converted to path) -->
+    <path
+        android:fillColor="#E8F4FD"
+        android:fillAlpha="0.5"
+        android:pathData="M42,65 a3,3 0 1,0 0,6 a3,3 0 1,0 0,-6"/>
+
+    <path
+        android:fillColor="#E8F4FD"
+        android:fillAlpha="0.5"
+        android:pathData="M68,65 a3,3 0 1,0 0,6 a3,3 0 1,0 0,-6"/>
+
+</vector>
