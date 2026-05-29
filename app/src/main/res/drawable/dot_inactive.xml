@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    dot_inactive.xml
+    Place in: res/drawable/
+    Circle inactive indicator — 7×7dp, Ocean Surface (#A8D5F0).
+    Set size in Java via LayoutParams: width=7dp, height=7dp
+-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <solid android:color="@color/ocean_surface"/>
+</shape>
