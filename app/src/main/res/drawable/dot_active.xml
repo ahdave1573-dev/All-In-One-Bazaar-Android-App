@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    dot_active.xml
+    Place in: res/drawable/
+    Pill-shaped active indicator — 20×7dp, Ocean Primary blue.
+    Set size in Java via LayoutParams: width=20dp, height=7dp
+-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/ocean_primary"/>
+    <corners android:radius="4dp"/>
+</shape>
