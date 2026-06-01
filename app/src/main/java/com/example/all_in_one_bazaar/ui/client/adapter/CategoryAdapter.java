@@ -1,7 +1,7 @@
 package com.example.all_in_one_bazaar.ui.client.adapter;
 
 import android.app.AlertDialog;
-import android.content.Context;
+import android.content.Context; 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.util.Base64;
