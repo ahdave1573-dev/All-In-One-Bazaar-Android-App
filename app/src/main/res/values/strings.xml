@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">All In One Bazaar</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="skip">Skip</string>
+    <string name="default_web_client_id">1077464551110-i7fk0p300r1j5md0gh9blk2lpcfvtf3t.apps.googleusercontent.com</string>
+    <string name="splash_tagline">Shop Smart. Live Better.</string>
+    <string name="loading">Loading…</string>
+
+    <string name="onboard_title_1">Curated Quality</string>
+    <string name="onboard_desc_1">Discover a world of premium products selected with care for your unique lifestyle needs.</string>
+    <string name="onboard_title_2">Fast Delivery</string>
+    <string name="onboard_desc_2">Get your orders delivered to your doorstep quickly and reliably, every time.</string>
+    <string name="onboard_title_3">Secure Payments</string>
+    <string name="onboard_desc_3">Shop with confidence using our encrypted and secure payment methods.</string>
+
+</resources>
