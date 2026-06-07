@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <!--  ADMIN Theme — purple (unchanged)                      -->
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <style name="Base.Theme.all_in_one_bazaar" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/plum_dark</item>
+        <item name="colorOnPrimary">@color/white_card</item>
+        <item name="android:statusBarColor">#F4F5F9</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.all_in_one_bazaar" parent="Base.Theme.all_in_one_bazaar" />
+
+    <!-- Splash Screen Theme — keeps purple status bar, no action bar -->
+    <style name="Theme.all_in_one_bazaar.NoActionBar" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">#0C3A8A</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">#1A56C4</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <!--  CLIENT Theme — Ocean Calm                             -->
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <style name="Theme.Client.OceanCalm" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/ocean_primary</item>
+        <item name="colorOnPrimary">@color/ocean_surface</item>
+        <item name="colorSecondary">@color/ocean_cta</item>
+        <item name="android:statusBarColor">@color/ocean_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">@color/ocean_lightest</item>
+        <item name="android:forceDarkAllowed">false</item>
+
+    </style>
+</resources>
+
