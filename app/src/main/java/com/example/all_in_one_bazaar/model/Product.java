@@ -12,7 +12,7 @@ public class Product {
     private String longDescription;  // Added
     private String image;
     private String category;
-    private String rating;
+    private String rating; 
     private String stockStatus;
     private String quantity;      // 🔥 એરર રોકવા માટે આને પણ String કરી દીધું છે
 
