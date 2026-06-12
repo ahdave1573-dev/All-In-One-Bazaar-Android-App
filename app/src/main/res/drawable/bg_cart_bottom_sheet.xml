@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    bg_cart_bottom_sheet.xml
+    Place in: res/drawable/
+    White card with top rounded corners for the checkout summary strip
+-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/ocean_white"/>
+    <stroke android:width="0.5dp" android:color="@color/ocean_surface"/>
+    <corners
+        android:topLeftRadius="24dp"
+        android:topRightRadius="24dp"
+        android:bottomLeftRadius="0dp"
+        android:bottomRightRadius="0dp"/>
+</shape>
