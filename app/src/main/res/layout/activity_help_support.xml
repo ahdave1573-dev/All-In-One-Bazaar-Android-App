@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_app_theme"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Help &amp; Support"
+        android:textColor="@color/ocean_text_primary"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtHelpSearch"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_field_ocean"
+        android:hint="Search help topics"
+        android:paddingHorizontal="18dp"
+        android:textColor="@color/ocean_text_primary"
+        android:textColorHint="@color/ocean_hint"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Frequently Asked Questions"
+        android:textColor="@color/ocean_text_primary"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/bg_bottom_sheet"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="18dp"
+        android:text="Where is my order?"
+        android:textColor="@color/ocean_text_primary"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/bg_bottom_sheet"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="18dp"
+        android:text="How do returns and refunds work?"
+        android:textColor="@color/ocean_text_primary"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/btnChatSupport"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="28dp"
+        app:cardBackgroundColor="@color/ocean_primary"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="4dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="CHAT WITH SUPPORT"
+            android:textColor="@color/ocean_text_inverse"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/btnEmailSupport"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="Email Support"
+        android:textColor="@color/ocean_cta"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+</LinearLayout>
