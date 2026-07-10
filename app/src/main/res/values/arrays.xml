@@ -1,0 +1,16 @@
+<resources>
+    <!--  Product Categories for Spinner  -->
+    <string-array name="product_categories">
+        <item>-- Select Category --</item>
+        <item>Electronics</item>
+        <item>Fashion</item>
+        <item>Home Garden</item>
+        <item>Sports  Outdoors</item>
+        <item>Beauty  Health</item>
+        <item>Toys  Games</item>
+        <item>Books</item>
+        <item>Automotive</item>
+        <item>Grocery</item>
+        <item>Other</item>
+    </string-array>
+</resources>
