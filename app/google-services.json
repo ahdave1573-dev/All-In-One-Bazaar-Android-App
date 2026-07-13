@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1077464551110",
+    "firebase_url": "https://all-in-one-bazaar-2053e-default-rtdb.firebaseio.com",
+    "project_id": "all-in-one-bazaar-2053e",
+    "storage_bucket": "all-in-one-bazaar-2053e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1077464551110:android:614f748792a7dccdc2d1c7",
+        "android_client_info": {
+          "package_name": "com.example.all_in_one_bazaar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1077464551110-np2oq0klp4kbik1audu5aa0024uh7gb6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.all_in_one_bazaar",
+            "certificate_hash": "7649b5b67834b829ad9229aabb3fb053aa271ad4"
+          }
+        },
+        {
+          "client_id": "1077464551110-i7fk0p300r1j5md0gh9blk2lpcfvtf3t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcNLq6_kk-OU0krHKhS0M6LZVjUstVe-A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1077464551110-i7fk0p300r1j5md0gh9blk2lpcfvtf3t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
