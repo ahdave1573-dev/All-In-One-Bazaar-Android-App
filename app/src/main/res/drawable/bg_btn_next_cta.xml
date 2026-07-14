@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    bg_btn_next_cta.xml
+    Place in: res/drawable/
+    Used on the LAST onboarding page only.
+    Amber CTA color (#F5A623) signals "this is the final action".
+    Swap in via Java: btnNext.setBackgroundResource(R.drawable.bg_btn_next_cta)
+-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/ocean_cta"/>
+    <corners android:radius="14dp"/>
+</shape>
