@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    poppins_semibold.xml
+    Place in: res/font/
+
+    References the Poppins SemiBold .ttf file.
+    The .ttf must also be placed in res/font/ as poppins_semibold.ttf
+-->
+<font-family xmlns:android="http://schemas.android.com/apk/res/android">
+    <font
+        android:font="@font/poppins_semibold"
+        android:fontStyle="normal"
+        android:fontWeight="600" />
+</font-family>
