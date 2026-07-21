@@ -7,7 +7,7 @@ public class Category {
 
     public Category() {
         // Required empty constructor for Firebase
-    }
+    }       
 
     public Category(String id, String name, String image) {
         this.id = id;
